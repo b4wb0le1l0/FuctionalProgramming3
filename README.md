@@ -166,12 +166,14 @@ main = do
 
 ## Результаты тестирования и работы программы
 
+### Обработка данных из файла
+[Скачать входные данные](https://github.com/b4wb0le1l0/FuctionalProgramming3/blob/main/input.txt)
 ![Обработка данных из файла](https://github.com/b4wb0le1l0/FuctionalProgramming3/blob/main/fromFileToOut.png)
 
-[Скачать входные данные](https://github.com/b4wb0le1l0/FuctionalProgramming3/blob/main/input.txt)
-
+### Результат тестов
 ![Результат тестов](https://github.com/b4wb0le1l0/FuctionalProgramming3/blob/main/tests.png)
 
+### Работа программы с "классическим" IO
 ![Работа программы с "классическим" IO](https://github.com/b4wb0le1l0/FuctionalProgramming3/blob/main/ClassicIO.png)
 
 
