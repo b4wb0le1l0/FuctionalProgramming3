@@ -168,6 +168,7 @@ main = do
 
 ### Обработка данных из файла
 [Скачать входные данные](https://github.com/b4wb0le1l0/FuctionalProgramming3/blob/main/input.txt)
+
 ![Обработка данных из файла](https://github.com/b4wb0le1l0/FuctionalProgramming3/blob/main/fromFileToOut.png)
 
 ### Результат тестов
