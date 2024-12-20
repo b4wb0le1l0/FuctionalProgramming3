@@ -91,6 +91,9 @@ parseInputLine line = case words (map replaceComma line) of
 readCoordinatePair :: IO (Double, Double)
 readCoordinatePair = do
   line <- getLine
-  case parseInputLine line of
-    Just p -> return p
-    Nothing -> putStrLn "Incorrect enter, try again:" >> readCoordinatePair
+  if line == "exit"
+    then error "Exiting program."
+    else do
+      case parseInputLine line of
+        Just p -> return p
+        Nothing -> putStrLn "Incorrect enter, try again:" >> readCoordinatePair
